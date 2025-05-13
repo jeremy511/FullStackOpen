@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
 participant user
 participant browser
@@ -14,3 +15,4 @@ participant server
 
     Note right of browser: The browser updates the note list dynamically without reloading the page
     browser->>browser: Rerender the new note in the list without refreshing the page
+```
